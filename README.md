@@ -21,15 +21,17 @@ X Education has appointed you to help them select the most promising leads, i.e.
 Data
 
 You have been provided with a leads dataset from the past with around 9000 data points. This dataset consists of various attributes such as Lead Source, Total Time Spent on Website, Total Visits, Last Activity, etc. which may or may not be useful in ultimately deciding whether a lead will be converted or not. The target variable, in this case, is the column ‘Converted’ which tells whether a past lead was converted or not wherein 1 means it was converted and 0 means it wasn’t converted. You can learn more about the dataset from the data dictionary provided in the zip folder at the end of the page. Another thing that you also need to check out are the levels present in the categorical variables. Many of the categorical variables have a level called 'Select' which needs to be handled because it is as good as a null value (think why?).
+
 Steps Followed
-Reading Data
-Cleaning Data
-EDA
-Creating Dummy
-Splitting data into train and test set
-Building Model
-Making Predictions
-Model Evaluation
-ROC Curve
-Prediction on test set
-Precision- Recall
+
+1.Reading Data
+2.Cleaning Data
+3.EDA
+4.Creating Dummy
+5.Splitting data into train and test set
+6.Building Model
+7.Making Predictions
+8.Model Evaluation
+9.ROC Curve
+10.Prediction on test set
+11.Precision- Recall
